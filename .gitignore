@@ -1,0 +1,7 @@
+*.zip
+*.webm
+*.rpa
+*.exe
+*.dll
+saves/
+.sugar-ko-backups/

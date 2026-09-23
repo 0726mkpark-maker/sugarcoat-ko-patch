@@ -1,0 +1,31 @@
+『Sugar,sugar,sugarcoat』 비공식 한국어 패치
+작품 제작: 小鳩えん / パンくず工房
+패치 관리: パク (0726mkpark-maker)
+
+1. 동봉 폰트
+x12y12pxMaruMinyaHangul.ttf — 수정 없이 동봉.
+Copyright (c) 2026 Lee Minseo (quiple@quiple.dev).
+Copyright (c) 2026 The x12y12pxMaruMinya Project Authors.
+License: SIL Open Font License 1.1.
+원문: LICENSES/MaruMinyaHangul-OFL.txt
+출처: https://github.com/quiple/x12y12pxMaruMinyaHangul
+라이선스: https://github.com/quiple/x12y12pxMaruMinyaHangul/blob/main/OFL.txt
+폰트의 OFL 권리는 패치의 비영리 운영 조건과 별개로 유지됩니다.
+
+2. 동봉 설치 도구
+install.py, asset_codec.py, setup.ps1, folder_picker.ps1, *.cmd는 이 패치를 위한 소스 코드입니다.
+외부 패치 프로그램, EXE, DLL, Python 표준 라이브러리, FFmpeg를 동봉하지 않습니다.
+게임 아카이브를 읽고 번역 픽셀을 합성하는 데 필요한 최소 기능만 포함합니다.
+
+3. 이용자의 기존 설치에서 실행하는 구성 요소
+Python 3.9.10 및 표준 라이브러리: 정품 게임의 기존 설치 사용, 패치에 재배포하지 않음.
+Python 라이선스 안내: https://docs.python.org/3/license.html
+Ren'Py 8.1.3 및 게임의 기존 영상 디코더: 기존 설치 사용, 수정·동봉하지 않음.
+Ren'Py 라이선스: https://www.renpy.org/doc/html/license.html
+PowerShell / Windows Forms: 이용자의 Windows 구성 요소 사용, 동봉하지 않음.
+
+4. 게임 원본 소재
+공식 중국어판 엔딩 스트림도 이용자가 설치한 archive.rpa 내부에서 읽습니다.
+이 패치는 해당 영상, 음악, 삽화, 장식, 게임 본체를 포함하지 않습니다.
+CG 차분에는 번역으로 실제 바뀐 픽셀만 포함하며 원본이 없으면 복원할 수 없습니다.
+전체 게임 자산·추출 자산·복제본·시험용 스크린샷은 공개 ZIP에 포함하지 않습니다.
